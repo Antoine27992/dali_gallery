@@ -9,7 +9,7 @@ function showPaintings(){
             var img = document.createElement('img');
             var td = document.createElement('td');
             var image;
-            img.setAttribute("width","200px");
+            img.setAttribute("class","landscape");
             if (index < 10){
                 image = "img/bild00" + (index) + ".jpg";
             } else if (index >= 10 && index < 30) {
